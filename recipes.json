@@ -8722,7 +8722,7 @@
   {
     "id": "the-best-vegan-meatloaf",
     "name": "The Best Vegan Meatloaf",
-    "category": "Breakfast",
+    "category": "Dinner",
     "baseServings": 4,
     "description": "A recipe featuring olive oil OR water for oil free, small onion, diced small, small carrots, diced small.",
     "ingredients": [
@@ -8767,7 +8767,7 @@
         "groceryCategory": "Produce"
       },
       {
-        "name": "15 oz cans chickpeas, drained and rinsed (3 cups)",
+        "name": "15 oz cans chickpeas",
         "baseTsp": 0.5,
         "unit": "PC",
         "cut": "",
@@ -8775,7 +8775,7 @@
         "groceryCategory": "Canned Goods"
       },
       {
-        "name": "breadcrumbs\\*",
+        "name": "breadcrumbs",
         "baseTsp": 72.0,
         "unit": "V",
         "cut": "",
@@ -8824,14 +8824,6 @@
       },
       {
         "name": "liquid smoke, optional, but good",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "For the topping",
         "baseTsp": 0.0,
         "unit": "GARNISH",
         "cut": "",
