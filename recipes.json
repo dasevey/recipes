@@ -1742,9 +1742,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "2 Tbsp water (to adjust consistency)",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "water (to adjust consistency)",
+        "baseTsp": 3.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Creamy Dressing",
         "groceryCategory": "Pantry"
@@ -2229,9 +2229,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "1 tsp Salt",
-        "baseTsp": 0.125,
-        "unit": "PC",
+        "name": "Salt",
+        "baseTsp": 0.5,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -2269,9 +2269,9 @@
         "groceryCategory": "Condiments"
       },
       {
-        "name": "4 Tbsp Flour",
-        "baseTsp": 0.75,
-        "unit": "PC",
+        "name": "Flour",
+        "baseTsp": 9.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -2386,7 +2386,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 0.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -2572,9 +2572,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "3 tablespoons vegan butter, for toasting the buns",
-        "baseTsp": 1.0,
-        "unit": "PC",
+        "name": "vegan butter, for toasting the buns",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Dairy & Alternatives"
@@ -2675,7 +2675,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 0.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -3087,9 +3087,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 Tbsp unsweetened plant milk",
-        "baseTsp": 0.1667,
-        "unit": "PC",
+        "name": "unsweetened plant milk",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Date Caramel Glaze",
         "groceryCategory": "Dairy & Alternatives"
@@ -4083,9 +4083,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 tsp beet powder",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "beet powder",
+        "baseTsp": 2.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Pink",
         "groceryCategory": "Produce"
@@ -4099,9 +4099,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 tsp strawberry powder",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "strawberry powder",
+        "baseTsp": 2.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Red",
         "groceryCategory": "Produce"
@@ -4115,17 +4115,17 @@
         "groceryCategory": "Produce"
       },
       {
-        "name": "4 tsp butterfly pea powder",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "butterfly pea powder",
+        "baseTsp": 2.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Blue/Purple",
         "groceryCategory": "Dairy & Alternatives"
       },
       {
-        "name": "4 tsp matcha powder",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "matcha powder",
+        "baseTsp": 2.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Green",
         "groceryCategory": "Pantry"
@@ -4139,9 +4139,9 @@
         "groceryCategory": "Produce"
       },
       {
-        "name": "4 tsp pineapple powder",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "pineapple powder",
+        "baseTsp": 2.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Yellow",
         "groceryCategory": "Produce"
@@ -4222,7 +4222,7 @@
       {
         "name": "garlic cloves, minced",
         "baseTsp": 0.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -4503,12 +4503,12 @@
     "name": "Tofu Scramble",
     "category": "Breakfast",
     "baseServings": 8,
-    "description": "A recipe featuring - 8 ounce packages extra-firm tofu (crumbled), medium onion (chopped), medium red bell pepper (chopped).",
+    "description": "A recipe featuring packages extra-firm tofu (crumbled), medium onion (chopped), medium red bell pepper (chopped).",
     "ingredients": [
       {
-        "name": "8 ounce packages extra-firm tofu (crumbled)",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "packages extra-firm tofu (crumbled)",
+        "baseTsp": 12.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -4541,30 +4541,6 @@
         "name": "Nutritional Yeast",
         "baseTsp": 12.0,
         "unit": "V",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "```{=html}",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "<!-- -->",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "```",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -5376,7 +5352,7 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 tbsp non-dairy mini or regular chocolate chips optional",
+        "name": "non-dairy mini or regular chocolate chips optional",
         "baseTsp": 0.0,
         "unit": "GARNISH",
         "cut": "",
@@ -5711,9 +5687,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 cups plant milk",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "plant milk",
+        "baseTsp": 96.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Dairy & Alternatives"
@@ -6920,7 +6896,7 @@
       {
         "name": "clove garlic minced",
         "baseTsp": 0.25,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -6950,9 +6926,9 @@
         "groceryCategory": "Proteins"
       },
       {
-        "name": "6 Tablespoons vegetable oil",
-        "baseTsp": 1.0,
-        "unit": "PC",
+        "name": "vegetable oil",
+        "baseTsp": 12.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -7000,7 +6976,7 @@
       {
         "name": "clove garlic minced",
         "baseTsp": 0.25,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -7616,7 +7592,7 @@
       {
         "name": "cloves of garlic, minced",
         "baseTsp": 0.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -8144,7 +8120,7 @@
       {
         "name": "garlic cloves, chopped",
         "baseTsp": 0.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -8515,9 +8491,9 @@
         "groceryCategory": "Produce"
       },
       {
-        "name": "15 oz can chickpeas, drained/rinsed",
-        "baseTsp": 0.125,
-        "unit": "PC",
+        "name": "can chickpeas, drained/rinsed",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -8748,12 +8724,12 @@
     "name": "The Best Vegan Meatloaf",
     "category": "Breakfast",
     "baseServings": 4,
-    "description": "A recipe featuring -2 tablespoons olive oil OR water for oil free, small onion, diced small, small carrots, diced small.",
+    "description": "A recipe featuring olive oil OR water for oil free, small onion, diced small, small carrots, diced small.",
     "ingredients": [
       {
-        "name": "2 tablespoons olive oil OR water for oil free",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "olive oil OR water for oil free",
+        "baseTsp": 3.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -8785,47 +8761,23 @@
       {
         "name": "garlic cloves, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
       },
       {
-        "name": "```{=html}",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "<!-- -->",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "```",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "\\(2\\) 15 oz cans chickpeas, drained and rinsed (3 cups)",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
+        "name": "15 oz cans chickpeas, drained and rinsed (3 cups)",
+        "baseTsp": 0.5,
+        "unit": "PC",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
       },
       {
-        "name": "1 1/2 cups breadcrumbs\\*",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "breadcrumbs\\*",
+        "baseTsp": 72.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -9180,7 +9132,7 @@
       {
         "name": "clove garlic , minced",
         "baseTsp": 1.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -9278,7 +9230,7 @@
       {
         "name": "clove Garlic ((minced))",
         "baseTsp": 0.25,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "(minced",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -9487,7 +9439,7 @@
       {
         "name": "garlic cloves minced",
         "baseTsp": 1.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -9688,7 +9640,7 @@
       {
         "name": "Cloves Garlic, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Mushroom Filling",
         "groceryCategory": "Produce"
@@ -10453,7 +10405,7 @@
       {
         "name": "garlic cloves, minced (about 1 Tablespoon)",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -10751,7 +10703,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -10945,7 +10897,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -11494,7 +11446,7 @@
       {
         "name": "cloves garlic minced (or sub ½ teaspoon garlic powder)",
         "baseTsp": 0.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "FOR THE SAUCE",
         "groceryCategory": "Pantry"
@@ -11557,7 +11509,7 @@
       {
         "name": "garlic cloves, minced",
         "baseTsp": 0.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -11663,7 +11615,7 @@
       {
         "name": "cloves garlic, chopped",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -11815,7 +11767,7 @@
       {
         "name": "cloves garlic",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -11932,7 +11884,7 @@
       {
         "name": "garlic cloves grated",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -12093,7 +12045,7 @@
       {
         "name": "5 garlic cloves, roughly chopped",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -12155,9 +12107,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "2 teaspoons sea salt",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "sea salt",
+        "baseTsp": 1.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -12205,7 +12157,7 @@
       {
         "name": "garlic clove chopped",
         "baseTsp": 0.25,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -12333,9 +12285,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 cloves minced garlic",
+        "name": "cloves minced garlic",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -12546,7 +12498,7 @@
       {
         "name": "garlic cloves, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -12624,7 +12576,7 @@
     "name": "Tofu Pineapple Curry",
     "category": "Dinner",
     "baseServings": 4,
-    "description": "A recipe featuring coconut oil, /2\" knob of ginger, finely grated, -- 4 tablespoons Thai red curry paste.",
+    "description": "A recipe featuring coconut oil, /2\" knob of ginger, finely grated, - tablespoons Thai red curry paste.",
     "ingredients": [
       {
         "name": "coconut oil",
@@ -12643,7 +12595,7 @@
         "groceryCategory": "Produce"
       },
       {
-        "name": "4 tablespoons Thai red curry paste",
+        "name": "tablespoons Thai red curry paste",
         "baseTsp": 0.75,
         "unit": "PC",
         "cut": "",
@@ -12814,7 +12766,7 @@
       {
         "name": "garlic cloves, minced",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -13482,7 +13434,7 @@
       {
         "name": "garlic cloves minced",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -13763,7 +13715,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -13931,7 +13883,7 @@
       {
         "name": "8 garlic cloves, peeled",
         "baseTsp": 1.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -14294,7 +14246,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -14552,7 +14504,7 @@
       {
         "name": "garlic cloves, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -14742,7 +14694,7 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "14 oz package extra firm organic tofu (optional)",
+        "name": "package extra firm organic tofu (optional)",
         "baseTsp": 0.0,
         "unit": "GARNISH",
         "cut": "",
@@ -15018,7 +14970,7 @@
     "name": "Easy Peanut Noodles",
     "category": "Dinner",
     "baseServings": 4,
-    "description": "A recipe featuring low-sodium soy sauce, water, -2 tablespoons minced garlic.",
+    "description": "A recipe featuring low-sodium soy sauce, water, minced garlic.",
     "ingredients": [
       {
         "name": "low-sodium soy sauce",
@@ -15037,9 +14989,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "2 tablespoons minced garlic",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "minced garlic",
+        "baseTsp": 3.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -15061,9 +15013,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "3 tablespoons peanut butter or PB2",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "peanut butter or PB2",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -15193,15 +15145,15 @@
       {
         "name": "large cloves garlic (4 large cloves yield \\~2 Tbsp or 18 g)",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
       },
       {
-        "name": "4 Tbsp olive oil",
-        "baseTsp": 0.75,
-        "unit": "PC",
+        "name": "olive oil",
+        "baseTsp": 9.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -15407,7 +15359,7 @@
       {
         "name": "garlic cloves, minced",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -15429,9 +15381,9 @@
         "groceryCategory": "Canned Goods"
       },
       {
-        "name": "2 cups soy milk",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "soy milk",
+        "baseTsp": 48.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Dairy & Alternatives"
@@ -15532,7 +15484,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -15594,9 +15546,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 Tbsp [[coconut aminos]{.underline}](https://www.amazon.com/Coconut-Secret-Raw-Aminos-Pack/dp/B00CMYMRL2/?tag=minimalistbaker-20)",
-        "baseTsp": 0.75,
-        "unit": "PC",
+        "name": "[[coconut aminos]{.underline}](https://www.amazon.com/Coconut-Secret-Raw-Aminos-Pack/dp/B00CMYMRL2/?tag=minimalistbaker-20)",
+        "baseTsp": 9.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -15714,7 +15666,7 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 tablespoons [[soy sauce]{.underline}](https://amzn.to/4eOLFAS), or more to taste",
+        "name": "[[soy sauce]{.underline}](https://amzn.to/4eOLFAS), or more to taste",
         "baseTsp": 0.0,
         "unit": "GARNISH",
         "cut": "",
@@ -15730,9 +15682,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "2 teaspoons [[toasted sesame oil]{.underline}](https://amzn.to/488yBUe)",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "[[toasted sesame oil]{.underline}](https://amzn.to/488yBUe)",
+        "baseTsp": 1.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -15784,7 +15736,7 @@
       {
         "name": "cloves garlic minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -15822,9 +15774,9 @@
         "groceryCategory": "Beverages & Broths"
       },
       {
-        "name": "7 cups vegetable stock or broth warmed",
-        "baseTsp": 1.5,
-        "unit": "PC",
+        "name": "vegetable stock or broth warmed",
+        "baseTsp": 288.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Beverages & Broths"
@@ -16001,7 +15953,7 @@
       {
         "name": "garlic cloves",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -16078,7 +16030,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -16796,7 +16748,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 1.5,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -17014,7 +16966,7 @@
       {
         "name": "cloves garlic, minced",
         "baseTsp": 1.0,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -17282,7 +17234,7 @@
       {
         "name": "cloves garlic minced or pressed",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -17401,7 +17353,7 @@
       {
         "name": "cloves garlic",
         "baseTsp": 0.75,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -17740,7 +17692,7 @@
       {
         "name": "Clove Garlic Crushed",
         "baseTsp": 0.25,
-        "unit": "PC",
+        "unit": "CL",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -18472,9 +18424,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "4 tablespoons ice water (I always use 2 tablespoons)",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "ice water (I always use 2 tablespoons)",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -18766,30 +18718,6 @@
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Dairy & Alternatives"
-      },
-      {
-        "name": "```{=html}",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "<!-- -->",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "```",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
       },
       {
         "name": "Instant or Minute Tapioca or Tapioca Pearls\\*\\*",
@@ -19189,9 +19117,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "5 tbsp nondairy milk see tip",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "nondairy milk see tip",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Dairy & Alternatives"
@@ -19227,12 +19155,12 @@
     "name": "Vanilla Nice Cream",
     "category": "Desserts",
     "baseServings": 4,
-    "description": "A recipe featuring -2 cups soy milk, vanilla, Flax seed meal.",
+    "description": "A recipe featuring soy milk, vanilla, Flax seed meal.",
     "ingredients": [
       {
-        "name": "2 cups soy milk",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "soy milk",
+        "baseTsp": 48.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Dairy & Alternatives"
@@ -19427,9 +19355,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "2 tablespoons rock salt",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "rock salt",
+        "baseTsp": 3.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "For garnish",
         "groceryCategory": "Pantry"
@@ -20682,7 +20610,7 @@
     "name": "Meringue Powder Royal Icing",
     "category": "Desserts",
     "baseServings": 4,
-    "description": "A recipe featuring ( 480g) confectioners' sugar, sifted (I use and recommend Domino brand), meringue powder (not plain egg white powder), -- 10 Tablespoons room temperature water.",
+    "description": "A recipe featuring ( 480g) confectioners' sugar, sifted (I use and recommend Domino brand), meringue powder (not plain egg white powder), - Tablespoons room temperature water.",
     "ingredients": [
       {
         "name": "( 480g) confectioners' sugar, sifted (I use and recommend Domino brand)",
@@ -20701,7 +20629,7 @@
         "groceryCategory": "Proteins"
       },
       {
-        "name": "10 Tablespoons room temperature water",
+        "name": "Tablespoons room temperature water",
         "baseTsp": 2.25,
         "unit": "PC",
         "cut": "",
@@ -21470,7 +21398,7 @@
     "name": "Marshmallow Fondant",
     "category": "Desserts",
     "baseServings": 4,
-    "description": "A recipe featuring package mini marshmallows (8 1/2 cups), -5 Tablespoons water, powdered sugar.",
+    "description": "A recipe featuring package mini marshmallows (8 1/2 cups), water, powdered sugar.",
     "ingredients": [
       {
         "name": "package mini marshmallows (8 1/2 cups)",
@@ -21481,9 +21409,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "5 Tablespoons water",
-        "baseTsp": 0.5,
-        "unit": "PC",
+        "name": "water",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -21670,7 +21598,7 @@
     "name": "Pumpkin Cheesecake",
     "category": "Desserts",
     "baseServings": 4,
-    "description": "A recipe featuring -10 inch large graham cracker crusts, -15 oz can 100% Pumpkin puree, Dark brown sugar.",
+    "description": "A recipe featuring -10 inch large graham cracker crusts, can 100% Pumpkin puree, Dark brown sugar.",
     "ingredients": [
       {
         "name": "10 inch large graham cracker crusts",
@@ -21681,33 +21609,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "```{=html}",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "<!-- -->",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "```",
-        "baseTsp": 0.0,
-        "unit": "GARNISH",
-        "cut": "",
-        "usedIn": "Main",
-        "groceryCategory": "Pantry"
-      },
-      {
-        "name": "15 oz can 100% Pumpkin puree",
-        "baseTsp": 0.25,
-        "unit": "PC",
+        "name": "can 100% Pumpkin puree",
+        "baseTsp": 6.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -22060,9 +21964,9 @@
         "groceryCategory": "Pantry"
       },
       {
-        "name": "6 cups flour",
-        "baseTsp": 1.25,
-        "unit": "PC",
+        "name": "flour",
+        "baseTsp": 240.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -22334,9 +22238,9 @@
         "groceryCategory": "Proteins"
       },
       {
-        "name": "1 cup vegan mayo",
-        "baseTsp": 0.125,
-        "unit": "PC",
+        "name": "vegan mayo",
+        "baseTsp": 24.0,
+        "unit": "V",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
