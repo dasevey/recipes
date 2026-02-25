@@ -519,5 +519,185 @@
       "Fold in the extra-firm tofu cubes gently. Cover and rest for 5 minutes before serving."
     ],
     "notes": "The silken tofu blends completely into the sauce — you won't taste it, it just adds creaminess and protein. Don't press the extra-firm tofu for this dish, the softer texture works well folded into the rice."
+  },
+  {
+    "id": "beef-stew",
+    "name": "Beef Stew",
+    "category": "Beef",
+    "baseServings": 6,
+    "description": "A hearty, classic beef stew with tender chuck, root vegetables, and a rich savory broth. Simple and deeply satisfying.",
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "baseTsp": 1.5,
+        "unit": "PC",
+        "cut": "1.5 inch cubes",
+        "usedIn": "Main",
+        "groceryCategory": "Proteins"
+      },
+      {
+        "name": "sea salt",
+        "baseTsp": 1.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "black pepper",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "onion powder",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "italian seasoning",
+        "baseTsp": 2.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "flour",
+        "baseTsp": 16,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Coating",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "cooking oil",
+        "baseTsp": 1,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "onion",
+        "baseTsp": 1,
+        "unit": "PC",
+        "cut": "diced",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "garlic",
+        "baseTsp": 4,
+        "unit": "CL",
+        "cut": "minced",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "tomato paste",
+        "baseTsp": 18,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Canned Goods"
+      },
+      {
+        "name": "balsamic vinegar",
+        "baseTsp": 6,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "yukon potatoes",
+        "baseTsp": 4,
+        "unit": "PC",
+        "cut": "medium, chunked",
+        "usedIn": "Vegetables",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "sweet potato",
+        "baseTsp": 1,
+        "unit": "PC",
+        "cut": "large, chunked",
+        "usedIn": "Vegetables",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "carrots",
+        "baseTsp": 3,
+        "unit": "PC",
+        "cut": "medium, sliced",
+        "usedIn": "Vegetables",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "worcestershire sauce",
+        "baseTsp": 1.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "bay leaf",
+        "baseTsp": 1,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "beef broth",
+        "baseTsp": 216,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Beverages & Broths"
+      },
+      {
+        "name": "parsley, fresh",
+        "baseTsp": 4.5,
+        "unit": "V",
+        "cut": "chopped",
+        "usedIn": "Garnish",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "salt",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "pepper",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      }
+    ],
+    "directions": [
+      "Cut beef chuck into 1.5-inch cubes, trimming any large fat chunks but leaving most of it. In a bowl, combine flour, sea salt, black pepper, onion powder, and Italian seasoning. Toss the beef cubes in the flour mixture until evenly coated.",
+      "Heat cooking oil in a large Dutch oven or heavy pot over medium-high heat. Brown the beef in batches — do not crowd the pan. Sear each batch for about 3-4 minutes per side until a deep brown crust forms. Transfer to a plate and set aside.",
+      "Reduce heat to medium. Add the diced onion to the same pot and cook for 4-5 minutes, scraping up the browned bits from the bottom.",
+      "Add the minced garlic and cook for 30 seconds until fragrant. Add the tomato paste and stir for 1 minute until it darkens slightly.",
+      "Add the balsamic vinegar and Worcestershire sauce, stirring to deglaze the pot and loosen any remaining browned bits.",
+      "Return the beef to the pot. Pour in the beef broth and add the bay leaf. Bring to a boil, then reduce to a low simmer. Cover and cook for 1.5 hours.",
+      "Add the Yukon potatoes, sweet potato, and carrots. Stir to combine, cover, and simmer for another 45-60 minutes until the vegetables are tender and the beef is fork-tender.",
+      "Remove the bay leaf. Taste and adjust salt and pepper as needed. Garnish with fresh parsley and serve."
+    ],
+    "notes": ""
   }
 ]
