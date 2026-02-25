@@ -787,7 +787,7 @@
     "id": "grilled-hamburgers",
     "name": "Grilled Hamburgers",
     "category": "Beef",
-    "baseServings": 4,
+    "baseServings": 1,
     "description": "Classic grilled burgers with pepper jack cheese, fresh toppings, and all the good stuff. Simple, satisfying, and always a crowd pleaser.",
     "ingredients": [
       {
