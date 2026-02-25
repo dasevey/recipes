@@ -530,7 +530,7 @@
       {
         "name": "beef chuck",
         "baseTsp": 1.5,
-        "unit": "PC",
+        "unit": "LB",
         "cut": "1.5 inch cubes",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -664,7 +664,7 @@
         "groceryCategory": "Beverages & Broths"
       },
       {
-        "name": "parsley, fresh",
+        "name": "fresh parsley",
         "baseTsp": 4.5,
         "unit": "V",
         "cut": "chopped",
@@ -698,6 +698,6 @@
       "Add the Yukon potatoes, sweet potato, and carrots. Stir to combine, cover, and simmer for another 45-60 minutes until the vegetables are tender and the beef is fork-tender.",
       "Remove the bay leaf. Taste and adjust salt and pepper as needed. Garnish with fresh parsley and serve."
     ],
-    "notes": ""
+    "notes": "This stew is even better the next day — make it ahead if you can. The flour coating on the beef naturally thickens the broth as it cooks. If you want it thicker, mash a couple of the potato chunks against the side of the pot and stir them in."
   }
 ]
