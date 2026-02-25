@@ -6,25 +6,81 @@
     "baseServings": 2,
     "description": "A classic marinade of garlic, olive oil, basil, and lemon that lets the salmon shine. Simple, healthy, and foolproof.",
     "ingredients": [
-      { "name": "salmon fillets (6oz each)", "baseTsp": 1, "unit": "PC", "cut": "", "usedIn": "Main" },
-      { "name": "garlic", "baseTsp": 1, "unit": "CL", "cut": "minced", "usedIn": "Marinade" },
-      { "name": "light olive oil", "baseTsp": 9, "unit": "V", "cut": "", "usedIn": "Marinade" },
-      { "name": "dried basil", "baseTsp": 0.5, "unit": "V", "cut": "", "usedIn": "Marinade" },
-      { "name": "kosher salt", "baseTsp": 0.5, "unit": "V", "cut": "", "usedIn": "Marinade" },
-      { "name": "black pepper", "baseTsp": 0.5, "unit": "V", "cut": "", "usedIn": "Marinade" },
-      { "name": "lemon juice", "baseTsp": 1.5, "unit": "V", "cut": "", "usedIn": "Marinade" },
-      { "name": "fresh parsley", "baseTsp": 1.5, "unit": "V", "cut": "chopped", "usedIn": "Garnish" }
+      {
+        "name": "salmon fillets (6oz each)",
+        "baseTsp": 1,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Main",
+        "groceryCategory": "Proteins"
+      },
+      {
+        "name": "garlic",
+        "baseTsp": 1,
+        "unit": "CL",
+        "cut": "minced",
+        "usedIn": "Marinade",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "light olive oil",
+        "baseTsp": 9,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Marinade",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "dried basil",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Marinade",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "kosher salt",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Marinade",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "black pepper",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Marinade",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "lemon juice",
+        "baseTsp": 1.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Marinade",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "fresh parsley",
+        "baseTsp": 1.5,
+        "unit": "V",
+        "cut": "chopped",
+        "usedIn": "Garnish",
+        "groceryCategory": "Produce"
+      }
     ],
     "directions": [
       "In a medium glass bowl, mix together garlic, olive oil, basil, salt, pepper, lemon juice, and parsley to make the marinade.",
       "Place salmon fillets in a medium glass baking dish and pour the marinade over them, making sure they are fully coated.",
       "Cover and marinate in the refrigerator for about 1 hour, turning the fillets occasionally.",
-      "Preheat your oven to 375°F (190°C).",
+      "Preheat your oven to 375\u00b0F (190\u00b0C).",
       "Place each fillet on a piece of aluminum foil, spoon some marinade over the top, and seal the foil into a packet.",
       "Place the foil packets in a baking dish and bake for 35 to 45 minutes, until the salmon flakes easily with a fork.",
       "Carefully open the foil packets (watch out for steam), plate the salmon, and garnish with any extra parsley."
     ],
-    "notes": "Use wild-caught Alaskan salmon when you can find it — Costco carries it frozen and it's excellent. The foil packet method keeps the fish moist and almost impossible to overcook."
+    "notes": "Use wild-caught Alaskan salmon when you can find it \u2014 Costco carries it frozen and it's excellent. The foil packet method keeps the fish moist and almost impossible to overcook."
   },
   {
     "id": "vegan-white-bean-chili",
@@ -33,39 +89,172 @@
     "baseServings": 6,
     "description": "Creamy, smoky, and deeply satisfying. This one-pot chili gets its richness from coconut milk and miso, with a sweet potato base that makes it unforgettable.",
     "ingredients": [
-      { "name": "vegetable oil", "baseTsp": 1, "unit": "V", "cut": "", "usedIn": "Base" },
-      { "name": "yellow onion", "baseTsp": 0.167, "unit": "PC", "cut": "finely chopped", "usedIn": "Base" },
-      { "name": "yellow or orange bell pepper", "baseTsp": 0.167, "unit": "PC", "cut": "chopped, seeds removed", "usedIn": "Base" },
-      { "name": "Japanese sweet potato", "baseTsp": 0.167, "unit": "PC", "cut": "peeled and chopped", "usedIn": "Base" },
-      { "name": "poblano chiles", "baseTsp": 0.333, "unit": "PC", "cut": "seeded and chopped", "usedIn": "Base" },
-      { "name": "jalapeños", "baseTsp": 0.333, "unit": "PC", "cut": "seeded and finely chopped", "usedIn": "Base" },
-      { "name": "garlic cloves", "baseTsp": 0.333, "unit": "CL", "cut": "chopped", "usedIn": "Base" },
-      { "name": "dried oregano", "baseTsp": 0.5, "unit": "V", "cut": "", "usedIn": "Spices" },
-      { "name": "ground cumin", "baseTsp": 1, "unit": "V", "cut": "", "usedIn": "Spices" },
-      { "name": "cans diced tomatoes (14oz)", "baseTsp": 0.167, "unit": "PC", "cut": "", "usedIn": "Base" },
-      { "name": "beer (vegan lager)", "baseTsp": 0.167, "unit": "PC", "cut": "", "usedIn": "Base" },
-      { "name": "cans butter beans (15oz, keep liquid)", "baseTsp": 0.167, "unit": "PC", "cut": "", "usedIn": "Base" },
-      { "name": "cans pinto beans (15oz, keep liquid)", "baseTsp": 0.167, "unit": "PC", "cut": "", "usedIn": "Base" },
-      { "name": "white miso paste", "baseTsp": 0.5, "unit": "V", "cut": "", "usedIn": "Finish" },
-      { "name": "frozen corn", "baseTsp": 0.167, "unit": "PC", "cut": "", "usedIn": "Finish" },
-      { "name": "vegan cream cheese", "baseTsp": 0.333, "unit": "PC", "cut": "", "usedIn": "Finish" },
-      { "name": "fresh cilantro", "baseTsp": 0, "unit": "GARNISH", "cut": "chopped", "usedIn": "Garnish" },
-      { "name": "radishes", "baseTsp": 0, "unit": "GARNISH", "cut": "sliced", "usedIn": "Garnish" },
-      { "name": "avocado", "baseTsp": 0, "unit": "GARNISH", "cut": "sliced", "usedIn": "Garnish" }
+      {
+        "name": "vegetable oil",
+        "baseTsp": 1,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "yellow onion",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "finely chopped",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "yellow or orange bell pepper",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "chopped, seeds removed",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "Japanese sweet potato",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "peeled and chopped",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "poblano chiles",
+        "baseTsp": 0.333,
+        "unit": "PC",
+        "cut": "seeded and chopped",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "jalape\u00f1os",
+        "baseTsp": 0.333,
+        "unit": "PC",
+        "cut": "seeded and finely chopped",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "garlic cloves",
+        "baseTsp": 0.333,
+        "unit": "CL",
+        "cut": "chopped",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "dried oregano",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Spices",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "ground cumin",
+        "baseTsp": 1,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Spices",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "cans diced tomatoes (14oz)",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Canned Goods"
+      },
+      {
+        "name": "beer (vegan lager)",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Beverages & Broths"
+      },
+      {
+        "name": "cans butter beans (15oz, keep liquid)",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Canned Goods"
+      },
+      {
+        "name": "cans pinto beans (15oz, keep liquid)",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Canned Goods"
+      },
+      {
+        "name": "white miso paste",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Finish",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "frozen corn",
+        "baseTsp": 0.167,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Finish",
+        "groceryCategory": "Frozen"
+      },
+      {
+        "name": "vegan cream cheese",
+        "baseTsp": 0.333,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Finish",
+        "groceryCategory": "Dairy & Alternatives"
+      },
+      {
+        "name": "fresh cilantro",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "chopped",
+        "usedIn": "Garnish",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "radishes",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "sliced",
+        "usedIn": "Garnish",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "avocado",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "sliced",
+        "usedIn": "Garnish",
+        "groceryCategory": "Produce"
+      }
     ],
     "directions": [
       "In a large pot or Dutch oven over medium-high heat, heat the oil.",
-      "Add the onion, bell pepper, sweet potato, poblano chiles, and jalapeños. Season with salt and pepper. Cook partially covered, stirring occasionally, until softened — about 12 minutes.",
+      "Add the onion, bell pepper, sweet potato, poblano chiles, and jalape\u00f1os. Season with salt and pepper. Cook partially covered, stirring occasionally, until softened \u2014 about 12 minutes.",
       "Add the garlic, oregano, and cumin. Stir for about 1 minute until fragrant.",
-      "Add the diced tomatoes and beer. Cook stirring occasionally until the tomatoes are very soft and the alcohol has cooked off — about 10 minutes.",
+      "Add the diced tomatoes and beer. Cook stirring occasionally until the tomatoes are very soft and the alcohol has cooked off \u2014 about 10 minutes.",
       "Add the butter beans and pinto beans along with all their liquid, plus 3/4 cup of water per 6 servings. Season with salt and pepper.",
-      "Reduce heat to medium and cook stirring occasionally until the liquid thickens slightly — about 15 minutes.",
+      "Reduce heat to medium and cook stirring occasionally until the liquid thickens slightly \u2014 about 15 minutes.",
       "In a small bowl, whisk the miso paste with a little water until smooth. Add to the pot, then use a wooden spoon to crush some of the beans against the side of the pot to thicken the chili.",
-      "Add the corn and cook stirring until tender — about 4 minutes.",
+      "Add the corn and cook stirring until tender \u2014 about 4 minutes.",
       "Remove from heat and stir in the vegan cream cheese until fully combined and smooth. Taste and adjust salt and pepper.",
       "Ladle into bowls and top with cilantro, radishes, and avocado. Serve with hot sauce and lime wedges on the side."
     ],
-    "notes": "This chili is even better the next day. Make it ahead and reheat gently. The miso is the secret weapon — it adds deep savory flavor. Leave out the jalapeños for kids or serve hot sauce on the side."
+    "notes": "This chili is even better the next day. Make it ahead and reheat gently. The miso is the secret weapon \u2014 it adds deep savory flavor. Leave out the jalape\u00f1os for kids or serve hot sauce on the side."
   },
   {
     "id": "sesame-tofu-broccoli",
@@ -74,31 +263,129 @@
     "baseServings": 4,
     "description": "Crispy baked tofu and roasted broccoli tossed in a sticky, savory sesame sauce. Serve over rice for a crowd-pleasing vegan dinner.",
     "ingredients": [
-      { "name": "extra-firm tofu (pressed and cubed)", "baseTsp": 0.25, "unit": "PC", "cut": "1-inch cubes", "usedIn": "Main" },
-      { "name": "broccoli florets", "baseTsp": 0.25, "unit": "PC", "cut": "", "usedIn": "Main" },
-      { "name": "cornstarch", "baseTsp": 1.5, "unit": "V", "cut": "", "usedIn": "Tofu Coating" },
-      { "name": "soy sauce or tamari", "baseTsp": 1.5, "unit": "V", "cut": "", "usedIn": "Sauce" },
-      { "name": "sesame oil", "baseTsp": 1, "unit": "V", "cut": "", "usedIn": "Sauce" },
-      { "name": "rice vinegar", "baseTsp": 0.75, "unit": "V", "cut": "", "usedIn": "Sauce" },
-      { "name": "maple syrup or agave", "baseTsp": 1, "unit": "V", "cut": "", "usedIn": "Sauce" },
-      { "name": "garlic cloves", "baseTsp": 0.375, "unit": "CL", "cut": "minced", "usedIn": "Sauce" },
-      { "name": "fresh ginger", "baseTsp": 0.5, "unit": "V", "cut": "grated", "usedIn": "Sauce" },
-      { "name": "sriracha (optional)", "baseTsp": 0.5, "unit": "V", "cut": "", "usedIn": "Sauce" },
-      { "name": "vegetable oil", "baseTsp": 1, "unit": "V", "cut": "", "usedIn": "Roasting" },
-      { "name": "sesame seeds", "baseTsp": 0, "unit": "GARNISH", "cut": "", "usedIn": "Garnish" },
-      { "name": "green onions", "baseTsp": 0, "unit": "GARNISH", "cut": "sliced", "usedIn": "Garnish" },
-      { "name": "cooked rice", "baseTsp": 0, "unit": "GARNISH", "cut": "", "usedIn": "Serve With" }
+      {
+        "name": "extra-firm tofu (pressed and cubed)",
+        "baseTsp": 0.25,
+        "unit": "PC",
+        "cut": "1-inch cubes",
+        "usedIn": "Main",
+        "groceryCategory": "Proteins"
+      },
+      {
+        "name": "broccoli florets",
+        "baseTsp": 0.25,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Main",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "cornstarch",
+        "baseTsp": 1.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Tofu Coating",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "soy sauce or tamari",
+        "baseTsp": 1.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Sauce",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "sesame oil",
+        "baseTsp": 1,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Sauce",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "rice vinegar",
+        "baseTsp": 0.75,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Sauce",
+        "groceryCategory": "Grains"
+      },
+      {
+        "name": "maple syrup or agave",
+        "baseTsp": 1,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Sauce",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "garlic cloves",
+        "baseTsp": 0.375,
+        "unit": "CL",
+        "cut": "minced",
+        "usedIn": "Sauce",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "fresh ginger",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "grated",
+        "usedIn": "Sauce",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "sriracha (optional)",
+        "baseTsp": 0.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Sauce",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "vegetable oil",
+        "baseTsp": 1,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Roasting",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "sesame seeds",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "",
+        "usedIn": "Garnish",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "green onions",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "sliced",
+        "usedIn": "Garnish",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "cooked rice",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "",
+        "usedIn": "Serve With",
+        "groceryCategory": "Grains"
+      }
     ],
     "directions": [
-      "Preheat oven to 425°F. Press the tofu by wrapping in a clean towel and setting something heavy on top for 15 minutes. Then cut into 1-inch cubes.",
+      "Preheat oven to 425\u00b0F. Press the tofu by wrapping in a clean towel and setting something heavy on top for 15 minutes. Then cut into 1-inch cubes.",
       "Toss the tofu cubes with vegetable oil and cornstarch until evenly coated. Spread in a single layer on a baking sheet.",
       "On a separate baking sheet, toss the broccoli florets with a drizzle of vegetable oil and a pinch of salt.",
-      "Bake both sheets at 425°F — tofu for 25 minutes until golden and crispy, broccoli for 20 minutes until edges are slightly charred.",
+      "Bake both sheets at 425\u00b0F \u2014 tofu for 25 minutes until golden and crispy, broccoli for 20 minutes until edges are slightly charred.",
       "While everything bakes, whisk together soy sauce, sesame oil, rice vinegar, maple syrup, garlic, ginger, and sriracha in a bowl.",
       "Add the crispy tofu and roasted broccoli to a large pan or wok over medium heat. Pour the sauce over everything and toss to coat.",
       "Cook for 2-3 minutes until the sauce thickens and clings to everything in a glossy, sticky coating.",
       "Serve immediately over rice and top with sesame seeds and sliced green onions."
     ],
-    "notes": "Don't crowd the baking sheets — use two sheets for each if making a large batch. Crowded pans steam instead of roast. Leave out sriracha for kids and serve it on the side."
+    "notes": "Don't crowd the baking sheets \u2014 use two sheets for each if making a large batch. Crowded pans steam instead of roast. Leave out sriracha for kids and serve it on the side."
   }
 ]
