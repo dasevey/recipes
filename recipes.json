@@ -704,7 +704,7 @@
     "id": "creamy-non-dairy-mashed-potatoes",
     "name": "Creamy Non-Dairy Mashed Potatoes",
     "category": "Vegan",
-    "baseServings": 10,
+    "baseServings": 6,
     "description": "Rich, fluffy mashed potatoes made entirely dairy-free. Roasted garlic, soy milk, and vegan butter make these just as creamy and satisfying as the classic version.",
     "ingredients": [
       {
@@ -757,7 +757,7 @@
       },
       {
         "name": "nutritional yeast",
-        "baseTsp": 2,
+        "baseTsp": 1,
         "unit": "V",
         "cut": "",
         "usedIn": "Seasoning",
