@@ -1361,16 +1361,16 @@
       },
       {
         "name": "can tomato sauce",
-        "baseTsp": 8.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
       },
       {
         "name": "can fire-roasted diced tomatoes",
-        "baseTsp": 15.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -1417,16 +1417,16 @@
       },
       {
         "name": "can pinto beans (drained & rinsed))",
-        "baseTsp": 15.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
       },
       {
         "name": "can kidney beans (not drained)",
-        "baseTsp": 15.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -2138,8 +2138,8 @@
       },
       {
         "name": "dry pasta, ideally a short tube shape like rigatoni or penne (gluten-free as needed)",
-        "baseTsp": 12.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Grains"
@@ -2390,8 +2390,8 @@
       },
       {
         "name": "Frozen Broccoli",
-        "baseTsp": 10.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -3538,7 +3538,7 @@
       {
         "name": "can chickpeas",
         "baseTsp": 1.0,
-        "unit": "OZ",
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -3569,7 +3569,7 @@
       },
       {
         "name": "powdered nut butter, reconstituted (mix with water as per package instructions to create a peanut",
-        "baseTsp": 24.0,
+        "baseTsp": 1.0,
         "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
@@ -5714,8 +5714,8 @@
       },
       {
         "name": "Vegan cheddar shreds",
-        "baseTsp": 16.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -6753,7 +6753,7 @@
       },
       {
         "name": "rice noodles (1/2 package Thai kitchen brand rice noodles)",
-        "baseTsp": 7.0,
+        "baseTsp": 1.0,
         "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
@@ -6761,7 +6761,7 @@
       },
       {
         "name": "of frozen vegetables (broccoli & cauliflower)",
-        "baseTsp": 11.0,
+        "baseTsp": 1.0,
         "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
@@ -6899,7 +6899,7 @@
       },
       {
         "name": "extra firm organic tofu (optional)",
-        "baseTsp": 12.0,
+        "baseTsp": 1.0,
         "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
@@ -6907,15 +6907,15 @@
       },
       {
         "name": "baby bella mushrooms (optional)",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
       },
       {
         "name": "frozen stir fry vegetables",
-        "baseTsp": 12.0,
+        "baseTsp": 1.0,
         "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
@@ -7034,8 +7034,8 @@
       },
       {
         "name": "green cabbage chopped into bite-sized pieces (5 cups)",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -7374,8 +7374,8 @@
       },
       {
         "name": "Tofu",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -7889,7 +7889,7 @@
       {
         "name": "can of chickpeas",
         "baseTsp": 1.0,
-        "unit": "OZ",
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -8278,7 +8278,7 @@
       },
       {
         "name": "(.25 ounce) packages active dry yeast",
-        "baseTsp": 2.5,
+        "baseTsp": 1.0,
         "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
@@ -9580,8 +9580,8 @@
       },
       {
         "name": "brown sugar",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -9867,8 +9867,8 @@
       },
       {
         "name": "Powdered sugar",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -10675,24 +10675,24 @@
       },
       {
         "name": "bag of your favorite pasta",
-        "baseTsp": 12.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Grains"
       },
       {
         "name": "bag of frozen Broccoli/Cauliflower mix",
-        "baseTsp": 10.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
       },
       {
         "name": "can Diced Tomatoes",
-        "baseTsp": 14.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -10798,8 +10798,8 @@
       },
       {
         "name": "pasta of your choice",
-        "baseTsp": 8.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Grains"
@@ -11711,7 +11711,7 @@
       {
         "name": "can chickpeas",
         "baseTsp": 1.0,
-        "unit": "OZ",
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -12372,8 +12372,8 @@
       },
       {
         "name": "pasta",
-        "baseTsp": 8.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Grains"
@@ -13422,8 +13422,8 @@
       },
       {
         "name": "extra firm tofu crumbled",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -13549,7 +13549,7 @@
     "ingredients": [
       {
         "name": "mini marshmallows (8 1/2 cups)",
-        "baseTsp": 16.0,
+        "baseTsp": 1.0,
         "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
@@ -14290,8 +14290,8 @@
       },
       {
         "name": "portobello mushrooms",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -14314,8 +14314,8 @@
       },
       {
         "name": "whole-grain fettuccine",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -15391,7 +15391,7 @@
       {
         "name": "block firm or extra-firm tofu, cut into cubes",
         "baseTsp": 1.0,
-        "unit": "OZ",
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -15471,7 +15471,7 @@
       {
         "name": "can chickpeas (drained and rinsed)",
         "baseTsp": 1.0,
-        "unit": "OZ",
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -15846,8 +15846,8 @@
       },
       {
         "name": "vegan \"chicken\" or baked tofu, cut into chunks",
-        "baseTsp": 8.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -15901,8 +15901,8 @@
       },
       {
         "name": "fresh broccoli",
-        "baseTsp": 32.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -16306,7 +16306,7 @@
       {
         "name": "can 100% Pumpkin puree",
         "baseTsp": 1.0,
-        "unit": "OZ",
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -16416,8 +16416,8 @@
     "ingredients": [
       {
         "name": "day old French bread, half of a big loaf (or even a few days old)",
-        "baseTsp": 8.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Grains"
@@ -17076,8 +17076,8 @@
       },
       {
         "name": "small red beans soaked overnight or quick-soaked",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Canned Goods"
@@ -18027,8 +18027,8 @@
       },
       {
         "name": "tofu chicken crumbles (optional)",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -18453,8 +18453,8 @@
       },
       {
         "name": "instant ramen noodles",
-        "baseTsp": 9.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Grains"
@@ -18657,8 +18657,8 @@
     "ingredients": [
       {
         "name": "box of manicotti",
-        "baseTsp": 2.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Pantry"
@@ -19148,8 +19148,8 @@
       },
       {
         "name": "can fire-roasted diced tomatoes (with the juice)",
-        "baseTsp": 28.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
@@ -19664,8 +19664,8 @@
       },
       {
         "name": "Chicken tofu crumbles (optional)",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -19795,8 +19795,8 @@
       },
       {
         "name": "firm tofu",
-        "baseTsp": 6.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -20036,8 +20036,8 @@
     "ingredients": [
       {
         "name": "Super Firm Tofu",
-        "baseTsp": 16.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Proteins"
@@ -21163,8 +21163,8 @@
       },
       {
         "name": "whole-grain spaghetti (such as Barilla\u00ae) or lo mein noodles",
-        "baseTsp": 8.0,
-        "unit": "OZ",
+        "baseTsp": 1.0,
+        "unit": "PKG",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Grains"
@@ -21339,8 +21339,8 @@
       },
       {
         "name": "sweet potato chopped",
-        "baseTsp": 202.0,
-        "unit": "V",
+        "baseTsp": 1.0,
+        "unit": "LB",
         "cut": "",
         "usedIn": "Main",
         "groceryCategory": "Produce"
