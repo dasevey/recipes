@@ -425,10 +425,10 @@
       <div class="form-group">
         <label class="form-label">Ingredients — one per line</label>
         <div style="font-size:0.78rem; color:var(--brown-mid); margin-bottom:6px; line-height:1.6;">
-          Format: <strong>name | tsp-per-serving | unit | cut | used-in | grocery-category</strong><br>
+          Format: <strong>name | tsp-per-serving | unit | cut | used-in | grocery-category | pkg-size</strong><br>
           Units: <strong>V</strong>=volume &nbsp; <strong>PC</strong>=pieces &nbsp; <strong>CL</strong>=cloves &nbsp; <strong>LB</strong>=pounds &nbsp; <strong>OZ</strong>=ounces &nbsp; <strong>PKG</strong>=packages &nbsp; <strong>GARNISH</strong>=to taste<br>
           Categories: Produce, Proteins, Dairy &amp; Alternatives, Pantry, Canned Goods, Grains, Frozen, Condiments, Beverages &amp; Broths<br>
-          Example: <em>olive oil | 3 | V | | Marinade | Pantry</em>
+          Example: <em>olive oil | 3 | V | | Marinade | Pantry</em> or <em>pinto beans | 1 | PKG | | Base | Canned Goods | 15 oz</em>
         </div>
         <textarea class="form-textarea" id="f-ingredients" style="min-height:140px;" placeholder="salmon fillets | 1 | PC | | Main | Proteins&#10;olive oil | 3 | V | | Marinade | Pantry&#10;garlic | 1 | CL | minced | Base | Produce"></textarea>
       </div>
@@ -649,7 +649,8 @@ function formatAmount(ing, servings, baseServings) {
   if (ing.unit === 'PKG') {
     const qty = Math.round(ing.baseTsp * m * 4) / 4;
     if (qty <= 0) return '—';
-    return formatFraction(qty) + (qty === 1 ? ' package' : ' packages');
+    const size = ing.pkgSize ? ` (${ing.pkgSize})` : '';
+    return formatFraction(qty) + (qty === 1 ? ' package' : ' packages') + size;
   }
   if (ing.unit === 'LB') {
     return formatWeight(ing.baseTsp * m, 'lb');
@@ -779,7 +780,7 @@ function generateShoppingList() {
       }
       const key = ing.name + '__' + ing.unit;
       if (!combined[key]) {
-        combined[key] = { ...ing, recipes: [], totalTsp: 0, totalQty: 0 };
+        combined[key] = { ...ing, recipes: [], totalTsp: 0, totalQty: 0, pkgSize: ing.pkgSize || '' };
       }
       combined[key].recipes.push(r.name);
       if (ing.unit === 'V') combined[key].totalTsp += ing.baseTsp * multiplier;
@@ -818,7 +819,7 @@ function generateShoppingList() {
               item.unit === 'CL' ? Math.round(item.totalQty) + (Math.round(item.totalQty) === 1 ? ' clove' : ' cloves') :
               item.unit === 'LB' ? formatWeight(item.totalQty, 'lb') :
               item.unit === 'OZ' ? formatWeight(item.totalQty, 'oz') :
-              item.unit === 'PKG' ? formatFraction(Math.round(item.totalQty * 4)/4) + (Math.round(item.totalQty * 4)/4 === 1 ? ' package' : ' packages') :
+              item.unit === 'PKG' ? formatFraction(Math.round(item.totalQty * 4)/4) + (Math.round(item.totalQty * 4)/4 === 1 ? ' package' : ' packages') + (item.pkgSize ? ` (${item.pkgSize})` : '') :
               formatFraction(Math.round(item.totalQty * 4)/4) + (Math.round(item.totalQty * 4)/4 === 1 ? ' piece' : ' pieces');
             const recipeList = [...new Set(item.recipes)].join(', ');
             return `
@@ -887,7 +888,7 @@ function openEditModal(id) {
   document.getElementById('f-desc').value = r.description || '';
   document.getElementById('f-servings').value = r.baseServings;
   document.getElementById('f-ingredients').value = r.ingredients.map(i =>
-    `${i.name} | ${i.baseTsp} | ${i.unit} | ${i.cut || ''} | ${i.usedIn} | ${i.groceryCategory || ''}`
+    `${i.name} | ${i.baseTsp} | ${i.unit} | ${i.cut || ''} | ${i.usedIn} | ${i.groceryCategory || ''} | ${i.pkgSize || ''}`
   ).join('\n');
   document.getElementById('f-directions').value = r.directions.join('\n');
   document.getElementById('f-notes').value = r.notes || '';
@@ -946,7 +947,8 @@ async function saveRecipe() {
     const parts = line.split('|').map(s => s.trim());
     return {
       name: parts[0], baseTsp: parseFloat(parts[1]) || 0, unit: parts[2] || 'V',
-      cut: parts[3] || '', usedIn: parts[4] || 'Main', groceryCategory: parts[5] || 'Pantry'
+      cut: parts[3] || '', usedIn: parts[4] || 'Main', groceryCategory: parts[5] || 'Pantry',
+      pkgSize: parts[6] || ''
     };
   });
 
