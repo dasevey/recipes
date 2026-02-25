@@ -704,12 +704,12 @@
     "id": "creamy-non-dairy-mashed-potatoes",
     "name": "Creamy Non-Dairy Mashed Potatoes",
     "category": "Vegan",
-    "baseServings": 6,
+    "baseServings": 10,
     "description": "Rich, fluffy mashed potatoes made entirely dairy-free. Roasted garlic, soy milk, and vegan butter make these just as creamy and satisfying as the classic version.",
     "ingredients": [
       {
         "name": "yukon gold potatoes",
-        "baseTsp": 0.833,
+        "baseTsp": 5,
         "unit": "LB",
         "cut": "peeled and chunked",
         "usedIn": "Main",
@@ -717,7 +717,7 @@
       },
       {
         "name": "garlic",
-        "baseTsp": 0.833,
+        "baseTsp": 5,
         "unit": "CL",
         "cut": "whole",
         "usedIn": "Base",
@@ -725,7 +725,7 @@
       },
       {
         "name": "soy milk",
-        "baseTsp": 20,
+        "baseTsp": 120,
         "unit": "V",
         "cut": "warmed",
         "usedIn": "Cream Base",
@@ -733,7 +733,7 @@
       },
       {
         "name": "vegan butter",
-        "baseTsp": 2.5,
+        "baseTsp": 15,
         "unit": "V",
         "cut": "",
         "usedIn": "Cream Base",
@@ -741,7 +741,7 @@
       },
       {
         "name": "olive oil",
-        "baseTsp": 1,
+        "baseTsp": 6,
         "unit": "V",
         "cut": "",
         "usedIn": "Cream Base",
@@ -757,7 +757,7 @@
       },
       {
         "name": "nutritional yeast",
-        "baseTsp": 1,
+        "baseTsp": 6,
         "unit": "V",
         "cut": "",
         "usedIn": "Seasoning",
