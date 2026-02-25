@@ -426,7 +426,7 @@
         <label class="form-label">Ingredients — one per line</label>
         <div style="font-size:0.78rem; color:var(--brown-mid); margin-bottom:6px; line-height:1.6;">
           Format: <strong>name | tsp-per-serving | unit | cut | used-in | grocery-category</strong><br>
-          Units: <strong>V</strong>=volume &nbsp; <strong>PC</strong>=pieces &nbsp; <strong>CL</strong>=cloves &nbsp; <strong>GARNISH</strong>=to taste<br>
+          Units: <strong>V</strong>=volume &nbsp; <strong>PC</strong>=pieces &nbsp; <strong>CL</strong>=cloves &nbsp; <strong>LB</strong>=pounds &nbsp; <strong>OZ</strong>=ounces &nbsp; <strong>PKG</strong>=packages &nbsp; <strong>GARNISH</strong>=to taste<br>
           Categories: Produce, Proteins, Dairy &amp; Alternatives, Pantry, Canned Goods, Grains, Frozen, Condiments, Beverages &amp; Broths<br>
           Example: <em>olive oil | 3 | V | | Marinade | Pantry</em>
         </div>
@@ -634,6 +634,7 @@ function setServings(val) {
 function formatAmount(ing, servings, baseServings) {
   const m = servings / baseServings;
   if (ing.unit === 'GARNISH') return 'to taste';
+
   if (ing.unit === 'PC') {
     const qty = Math.round(ing.baseTsp * m * 4) / 4;
     if (qty <= 0) return '—';
@@ -644,7 +645,43 @@ function formatAmount(ing, servings, baseServings) {
     if (qty <= 0) return '—';
     return qty + (qty === 1 ? ' clove' : ' cloves');
   }
+  if (ing.unit === 'PKG') {
+    const qty = Math.round(ing.baseTsp * m * 4) / 4;
+    if (qty <= 0) return '—';
+    return formatFraction(qty) + (qty === 1 ? ' package' : ' packages');
+  }
+  if (ing.unit === 'LB') {
+    return formatWeight(ing.baseTsp * m, 'lb');
+  }
+  if (ing.unit === 'OZ') {
+    return formatWeight(ing.baseTsp * m, 'oz');
+  }
+
   return formatVolume(ing.baseTsp * m);
+}
+
+function formatWeight(total, unit) {
+  if (total <= 0) return '—';
+  if (unit === 'oz') {
+    // If 16oz or more, convert to lbs
+    if (total >= 16) return formatWeight(total / 16, 'lb');
+    const rounded = Math.round(total * 4) / 4;
+    return formatFrac(rounded) + (rounded === 1 ? ' oz' : ' oz');
+  }
+  // Pounds
+  const wholeLbs = Math.floor(total);
+  const remOz = Math.round((total - wholeLbs) * 16);
+  // Round to nearest common fraction of a lb: 0, ¼, ⅓, ½, ⅔, ¾
+  const lbFracs = [[0,''], [4,'¼'], [5,'⅓'], [8,'½'], [11,'⅔'], [12,'¾'], [16,'NEXT']];
+  const best = lbFracs.reduce((a, b) => Math.abs(b[0] - remOz) < Math.abs(a[0] - remOz) ? b : a);
+  let whole = wholeLbs;
+  let frac = best[1];
+  if (frac === 'NEXT') { whole++; frac = ''; }
+  const lbWord = (whole + (frac ? 0.5 : 0)) === 1 ? 'lb' : 'lbs';
+  if (whole > 0 && frac) return `${whole} ${frac} ${lbWord}`;
+  if (whole > 0) return `${whole} ${lbWord}`;
+  if (frac) return `${frac} lb`;
+  return '—';
 }
 
 function formatVolume(totalTsp) {
@@ -746,6 +783,7 @@ function generateShoppingList() {
       combined[key].recipes.push(r.name);
       if (ing.unit === 'V') combined[key].totalTsp += ing.baseTsp * multiplier;
       else combined[key].totalQty += ing.baseTsp * multiplier;
+      combined[key].unit = ing.unit;
     });
   });
 
@@ -777,6 +815,9 @@ function generateShoppingList() {
             const amt = item.isGarnish ? 'to taste' :
               item.unit === 'V' ? formatAmount({...item, baseTsp: item.totalTsp}, 1, 1) :
               item.unit === 'CL' ? Math.round(item.totalQty) + (Math.round(item.totalQty) === 1 ? ' clove' : ' cloves') :
+              item.unit === 'LB' ? formatWeight(item.totalQty, 'lb') :
+              item.unit === 'OZ' ? formatWeight(item.totalQty, 'oz') :
+              item.unit === 'PKG' ? formatFraction(Math.round(item.totalQty * 4)/4) + (Math.round(item.totalQty * 4)/4 === 1 ? ' package' : ' packages') :
               formatFraction(Math.round(item.totalQty * 4)/4) + (Math.round(item.totalQty * 4)/4 === 1 ? ' piece' : ' pieces');
             const recipeList = [...new Set(item.recipes)].join(', ');
             return `
