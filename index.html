@@ -522,6 +522,7 @@ async function loadRecipes() {
     const res = await fetch('recipes.json?t=' + Date.now());
     if (res.ok) recipes = await res.json();
   } catch(e) { recipes = []; }
+  recipes.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 }
 
 // ─── Search ───────────────────────────────────────────────────────────────────
@@ -964,6 +965,7 @@ async function saveRecipe() {
     showStatus('Added locally. Set up GitHub config to save permanently.', 'success');
   }
 
+  recipes.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
   initSearch();
   renderPickList();
   setTimeout(() => { closeModal(); selectRecipe(id); showView('recipes'); }, 1200);
