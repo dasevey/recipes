@@ -699,5 +699,88 @@
       "Remove the bay leaf. Taste and adjust salt and pepper as needed. Garnish with fresh parsley and serve."
     ],
     "notes": "This stew is even better the next day — make it ahead if you can. The flour coating on the beef naturally thickens the broth as it cooks. If you want it thicker, mash a couple of the potato chunks against the side of the pot and stir them in."
+  },
+  {
+    "id": "creamy-non-dairy-mashed-potatoes",
+    "name": "Creamy Non-Dairy Mashed Potatoes",
+    "category": "Vegan",
+    "baseServings": 10,
+    "description": "Rich, fluffy mashed potatoes made entirely dairy-free. Roasted garlic, soy milk, and vegan butter make these just as creamy and satisfying as the classic version.",
+    "ingredients": [
+      {
+        "name": "yukon gold potatoes",
+        "baseTsp": 0.833,
+        "unit": "LB",
+        "cut": "peeled and chunked",
+        "usedIn": "Main",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "garlic",
+        "baseTsp": 0.833,
+        "unit": "CL",
+        "cut": "whole",
+        "usedIn": "Base",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "soy milk",
+        "baseTsp": 20,
+        "unit": "V",
+        "cut": "warmed",
+        "usedIn": "Cream Base",
+        "groceryCategory": "Dairy & Alternatives"
+      },
+      {
+        "name": "vegan butter",
+        "baseTsp": 2.5,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Cream Base",
+        "groceryCategory": "Dairy & Alternatives"
+      },
+      {
+        "name": "olive oil",
+        "baseTsp": 1,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Cream Base",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "black pepper",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "to taste",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "nutritional yeast",
+        "baseTsp": 2,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Seasoning",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "chives",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "chopped",
+        "usedIn": "Garnish",
+        "groceryCategory": "Produce"
+      }
+    ],
+    "directions": [
+      "Wash and cut the yukon gold potatoes into evenly sized chunks so they cook at the same rate.",
+      "Place the potatoes and whole garlic cloves in a large pot. Cover with cold salted water. Bring to a boil then reduce to a simmer and cook for 15-20 minutes until the potatoes are completely tender when pierced with a fork.",
+      "Drain the potatoes and garlic and let them sit in the colander for 2-3 minutes to steam off excess moisture. This step keeps your mash fluffy instead of watery.",
+      "Return the potatoes and garlic to the pot. Mash with a potato masher or ricer until smooth. The garlic will mash right in and mellow beautifully.",
+      "Slowly mix in the warmed soy milk and olive oil or vegan butter, starting with half and adding more to reach your desired consistency. Warming the milk first keeps the potatoes from going gluey.",
+      "Stir in the nutritional yeast and season with salt and pepper to taste.",
+      "Taste and adjust seasoning. Garnish with chives and serve immediately."
+    ],
+    "notes": "Warming the soy milk before adding is important — cold liquid makes mashed potatoes gluey. The nutritional yeast adds a subtle savory depth that makes these taste richer. Don't overwork the potatoes once the liquid goes in or they'll turn sticky."
   }
 ]
