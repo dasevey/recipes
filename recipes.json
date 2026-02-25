@@ -782,5 +782,136 @@
       "Taste and adjust seasoning. Garnish with chives and serve immediately."
     ],
     "notes": "Warming the soy milk before adding is important — cold liquid makes mashed potatoes gluey. The nutritional yeast adds a subtle savory depth that makes these taste richer. Don't overwork the potatoes once the liquid goes in or they'll turn sticky."
+  },
+  {
+    "id": "grilled-hamburgers",
+    "name": "Grilled Hamburgers",
+    "category": "Beef",
+    "baseServings": 4,
+    "description": "Classic grilled burgers with pepper jack cheese, fresh toppings, and all the good stuff. Simple, satisfying, and always a crowd pleaser.",
+    "ingredients": [
+      {
+        "name": "ground beef (80/20)",
+        "baseTsp": 0.25,
+        "unit": "LB",
+        "cut": "formed into patties",
+        "usedIn": "Patty",
+        "groceryCategory": "Proteins"
+      },
+      {
+        "name": "pepper jack cheese",
+        "baseTsp": 1,
+        "unit": "OZ",
+        "cut": "sliced",
+        "usedIn": "Patty",
+        "groceryCategory": "Dairy & Alternatives"
+      },
+      {
+        "name": "hamburger buns",
+        "baseTsp": 1,
+        "unit": "PC",
+        "cut": "",
+        "usedIn": "Base",
+        "groceryCategory": "Grains"
+      },
+      {
+        "name": "salt",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "to taste",
+        "usedIn": "Patty",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "black pepper",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "to taste",
+        "usedIn": "Patty",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "garlic powder",
+        "baseTsp": 0.25,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Patty",
+        "groceryCategory": "Pantry"
+      },
+      {
+        "name": "worcestershire sauce",
+        "baseTsp": 0.75,
+        "unit": "V",
+        "cut": "",
+        "usedIn": "Patty",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "lettuce",
+        "baseTsp": 1,
+        "unit": "PC",
+        "cut": "leaf",
+        "usedIn": "Toppings",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "tomato",
+        "baseTsp": 0.25,
+        "unit": "PC",
+        "cut": "sliced",
+        "usedIn": "Toppings",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "onion",
+        "baseTsp": 0.25,
+        "unit": "PC",
+        "cut": "sliced",
+        "usedIn": "Toppings",
+        "groceryCategory": "Produce"
+      },
+      {
+        "name": "pickles",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "sliced",
+        "usedIn": "Toppings",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "ketchup",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "",
+        "usedIn": "Condiments",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "mustard",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "",
+        "usedIn": "Condiments",
+        "groceryCategory": "Condiments"
+      },
+      {
+        "name": "mayonnaise",
+        "baseTsp": 0,
+        "unit": "GARNISH",
+        "cut": "",
+        "usedIn": "Condiments",
+        "groceryCategory": "Condiments"
+      }
+    ],
+    "directions": [
+      "In a bowl, mix ground beef with worcestershire sauce, garlic powder, salt, and pepper. Mix gently — overworking the meat makes tough burgers.",
+      "Divide into equal portions and form into patties slightly wider than your buns since they shrink on the grill. Press a small indent in the center of each patty with your thumb to prevent puffing up.",
+      "Preheat your grill to medium-high heat. Oil the grates lightly to prevent sticking.",
+      "Grill patties for 3-4 minutes without moving them — let them develop a good crust before flipping.",
+      "Flip once and grill another 3-4 minutes for medium. In the last minute lay a slice of pepper jack on each patty and close the grill lid to melt.",
+      "Toast the buns cut-side down on the grill for about 1 minute until lightly golden.",
+      "Build your burger and serve immediately."
+    ],
+    "notes": "80/20 ground beef is the sweet spot — enough fat to stay juicy on the grill without being greasy. Don't press down on the patties while cooking, that squeezes out all the juices. Pepper jack melts fast so only needs about 60 seconds with the lid closed."
   }
 ]
