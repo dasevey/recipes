@@ -636,33 +636,70 @@ function formatAmount(ing, servings, baseServings) {
   if (ing.unit === 'GARNISH') return 'to taste';
   if (ing.unit === 'PC') {
     const qty = Math.round(ing.baseTsp * m * 4) / 4;
+    if (qty <= 0) return '—';
     return formatFraction(qty) + (qty === 1 ? ' piece' : ' pieces');
   }
   if (ing.unit === 'CL') {
     const qty = Math.round(ing.baseTsp * m);
+    if (qty <= 0) return '—';
     return qty + (qty === 1 ? ' clove' : ' cloves');
   }
-  const tsp = ing.baseTsp * m;
-  const cups = Math.floor(tsp / 48);
-  const tbsp = Math.floor((tsp % 48) / 3);
-  const tspR = Math.round((tsp % 3) * 2) / 2;
-  const parts = [];
-  if (cups > 0) parts.push(formatFraction(cups) + (cups === 1 ? ' cup' : ' cups'));
-  if (tbsp > 0) parts.push(tbsp + ' tbsp');
-  if (tspR > 0) parts.push(formatFraction(tspR) + ' tsp');
-  return parts.length > 0 ? parts.join(' + ') : '—';
+  return formatVolume(ing.baseTsp * m);
 }
 
-function formatFraction(num) {
+function formatVolume(totalTsp) {
+  if (totalTsp <= 0) return '—';
+
+  // Cup fraction map: tsp value → display string
+  const cupFracs = [
+    [0,  ''], [6, '⅛'], [12, '¼'], [16, '⅓'],
+    [24, '½'], [32, '⅔'], [36, '¾'], [48, 'NEXT']
+  ];
+
+  if (totalTsp >= 12) {
+    // Work in cups
+    let wholeCups = Math.floor(totalTsp / 48);
+    const remTsp = totalTsp % 48;
+    // Find nearest cup fraction for remainder
+    const best = cupFracs.reduce((a, b) =>
+      Math.abs(b[0] - remTsp) < Math.abs(a[0] - remTsp) ? b : a
+    );
+    let fracStr = best[1];
+    if (fracStr === 'NEXT') { wholeCups++; fracStr = ''; }
+    const cupWord = (wholeCups + (fracStr ? 0.5 : 0)) === 1 ? 'cup' : 'cups';
+    if (wholeCups > 0 && fracStr) return `${wholeCups} ${fracStr} ${cupWord}`;
+    if (wholeCups > 0) return `${wholeCups} ${cupWord}`;
+    if (fracStr) return `${fracStr} cup`;
+  }
+
+  if (totalTsp >= 3) {
+    // Work in tablespoons
+    const wholeTbsp = Math.floor(totalTsp / 3);
+    const remTsp = Math.round((totalTsp % 3) * 2) / 2;
+    const parts = [];
+    if (wholeTbsp > 0) parts.push(wholeTbsp + ' tbsp');
+    if (remTsp > 0) parts.push(formatFrac(remTsp) + ' tsp');
+    return parts.join(' + ');
+  }
+
+  // Pure teaspoons - round to nearest 1/8 tsp
+  const rounded = Math.round(totalTsp * 8) / 8;
+  return rounded > 0 ? formatFrac(rounded) + ' tsp' : '⅛ tsp';
+}
+
+function formatFrac(num) {
   const whole = Math.floor(num);
-  const frac = Math.round((num - whole) * 4) / 4;
-  const map = { 0.25:'¼', 0.5:'½', 0.75:'¾' };
+  // Round to nearest 1/8
+  const frac = Math.round((num - whole) * 8) / 8;
+  const map = { 0.125:'⅛', 0.25:'¼', 0.375:'⅜', 0.5:'½', 0.625:'⅝', 0.75:'¾', 0.875:'⅞' };
   const fs = map[frac] || '';
+  if (frac >= 1) return `${whole + 1}`; // rounds up to next whole
   if (whole > 0 && fs) return `${whole} ${fs}`;
   if (whole > 0) return `${whole}`;
-  if (fs) return fs;
-  return '0';
+  return fs || '0';
 }
+
+function formatFraction(num) { return formatFrac(num); }
 
 // ─── Shopping List ────────────────────────────────────────────────────────────
 function renderPickList() {
